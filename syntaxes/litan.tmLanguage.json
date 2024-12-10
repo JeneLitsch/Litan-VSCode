@@ -1,0 +1,77 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Litan",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#constant"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.litan",
+					"match": "\\b(return|var)\\b"
+				},
+				{
+					"name": "keyword.conditional.litan",
+					"match": "\\b(if|else|case|conditional|switch)\\b"
+				},
+				{
+					"name": "keyword.functional.litan",
+					"match": "\\b(function|lambda)\\b"
+				},
+				{
+					"name" : "keyword.loops.litan",
+					"match" : "\\b(while|for)\\b"
+				},
+				{
+					"name" : "keyword.namespace.litan",
+					"match" : "\\b(namespace)\\b"
+				}
+			]
+		},
+		"comments" : {
+			"patterns": [
+				{
+					"name": "comment.line",
+					"begin": "//",
+					"end": "\\n"
+				}
+			]
+		},
+		"constant": {
+			"patterns": [
+				{
+					"name" : "constant.language",
+					"match": "\\b(null|true|false)\\b"
+				},
+				{
+					"name" : "constant.numeric",
+					"match": "\\b[-]?[0-9]+(\\.[0-9]+)?\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.litan",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.litan",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.ltn"
+}
