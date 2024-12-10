@@ -16,6 +16,9 @@
 		},
 		{
 			"include": "#storage"
+		},
+		{
+			"include": "#entity"
 		}
 	],
 	"repository": {
@@ -57,7 +60,6 @@
 					"name" : "keyword.operator.conditional.litan",
 					"match" : "\\?\\?|\\?|(?<!:)\\:(?!:)"
 				}
-
 			]
 		},
 		"storage" : {
@@ -102,6 +104,15 @@
 				{
 					"name" : "constant.numeric.hex.litan",
 					"match": "\\b0x([0-9]|[a-f])*\\b"
+				}
+			]
+		},
+		"entity" : {
+			"patterns": [
+				{
+
+					"name" : "entity.name.function.litan",
+					"match" : "(\\w)+(\\s|\\r)*(?=\\()"
 				}
 			]
 		},
