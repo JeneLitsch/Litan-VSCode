@@ -55,7 +55,7 @@
 		"comments" : {
 			"patterns": [
 				{
-					"name": "comment.line",
+					"name": "comment.line.litan",
 					"begin": "//",
 					"end": "\\n"
 				}
@@ -64,27 +64,27 @@
 		"constant": {
 			"patterns": [
 				{
-					"name" : "constant.language",
+					"name" : "constant.language.litan",
 					"match": "\\b(null|true|false)\\b"
 				},
 				{
-					"name" : "constant.numeric.dec",
+					"name" : "constant.numeric.dec.litan",
 					"match": "\\b[-]?[0-9]+(\\.[0-9]+)?\\b"
 				},
 				{
-					"name" : "constant.numeric.bin",
+					"name" : "constant.numeric.bin.litan",
 					"match": "\\b0b(0|1)*\\b"
 				},
 				{
-					"name" : "constant.numeric.hex",
+					"name" : "constant.numeric.hex.litan",
 					"match": "\\b0x([0-9]|[a-f])*\\b"
 				}
 			]
 		},
 		"strings": {
-			"name": "string.quoted.double.litan",
-			"begin": "\"",
-			"end": "\"",
+			"name": "string.quoted.litan",
+			"begin": "\"|'",
+			"end": "\"|'",
 			"patterns": [
 				{
 					"name": "constant.character.escape.litan",
