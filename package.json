@@ -3,6 +3,7 @@
   "displayName": "litan",
   "description": "Language support for Litan",
   "version": "0.0.1",
+  "publisher": "Sera K. Litsch",
   "engines": {
     "vscode": "^1.95.0"
   },
@@ -20,7 +21,13 @@
       "language": "litan",
       "scopeName": "source.ltn",
       "path": "./syntaxes/litan.tmLanguage.json"
-    }]
+    }],
+    "snippets": [
+      {
+        "language": "litan",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
   },
   "repository": {
     "type": "git",

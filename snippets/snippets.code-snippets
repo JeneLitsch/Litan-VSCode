@@ -1,0 +1,29 @@
+{
+	"function" : {
+		"scope" : "litan",
+		"prefix": "function",
+		"body": [
+			"function $1($2) {",
+			"\t$0",
+			"}"
+		]
+	},
+	"function.main" : {
+		"scope" : "litan",
+		"prefix": "main",
+		"body": [
+			"function main(args) {",
+			"\t$0",
+			"}"
+		]
+	},
+	"namespace" : {
+		"scope" : "litan",
+		"prefix": "namespace",
+		"body": [
+			"namespace $1 {",
+			"\t$0",
+			"}"
+		]
+	},
+}
