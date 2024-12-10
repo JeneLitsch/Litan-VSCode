@@ -29,11 +29,35 @@
 					"name": "keyword.conditional.litan",
 					"match": "\\b(if|else|case|conditional|switch)\\b"
 				},
-
+				{
+					"name" : "keyword.operator.litan",
+					"match" : "->|=>|="
+				},
 				{
 					"name" : "keyword.loops.litan",
 					"match" : "\\b(while|for)\\b"
+				},
+				{
+					"name" : "keyword.operator.arithmetic.litan",
+					"match" : "\\+|-|\\*|\\/|%|\\*\\*"
+				},
+				{
+					"name" : "keyword.operator.compare.litan",
+					"match" : "<=|>=|<=>|==|!=|<|>"
+				},
+				{
+					"name" : "keyword.operator.logical.litan",
+					"match" : "&&|\\|\\||!"
+				},
+				{
+					"name" : "keyword.operator.bitwise.litan",
+					"match" : "&|\\||>>|<<|\\^|~"
+				},
+				{
+					"name" : "keyword.operator.conditional.litan",
+					"match" : "\\?\\?|\\?|(?<!:)\\:(?!:)"
 				}
+
 			]
 		},
 		"storage" : {
