@@ -21,5 +21,10 @@
       "scopeName": "source.ltn",
       "path": "./syntaxes/litan.tmLanguage.json"
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeneLitsch/Litan-VSCode"
   }
+
 }
