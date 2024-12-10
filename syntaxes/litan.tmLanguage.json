@@ -13,6 +13,9 @@
 		},
 		{
 			"include": "#constant"
+		},
+		{
+			"include": "#storage"
 		}
 	],
 	"repository": {
@@ -26,16 +29,25 @@
 					"name": "keyword.conditional.litan",
 					"match": "\\b(if|else|case|conditional|switch)\\b"
 				},
-				{
-					"name": "keyword.functional.litan",
-					"match": "\\b(function|lambda)\\b"
-				},
+
 				{
 					"name" : "keyword.loops.litan",
 					"match" : "\\b(while|for)\\b"
+				}
+			]
+		},
+		"storage" : {
+			"patterns" : [
+				{
+					"name": "storage.function.litan",
+					"match": "\\b(function)\\b"
 				},
 				{
-					"name" : "keyword.namespace.litan",
+					"name": "storage.lambda.litan",
+					"match": "\\b(lambda)\\b"
+				},
+				{
+					"name" : "storage.namespace.litan",
 					"match" : "\\b(namespace)\\b"
 				}
 			]
