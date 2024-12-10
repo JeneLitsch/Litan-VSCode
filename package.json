@@ -3,7 +3,9 @@
   "displayName": "litan",
   "description": "Language support for Litan",
   "version": "0.0.1",
-  "publisher": "Sera K. Litsch",
+  "author": {
+    "name" : "Sera K. Litsch"
+  },
   "engines": {
     "vscode": "^1.95.0"
   },
