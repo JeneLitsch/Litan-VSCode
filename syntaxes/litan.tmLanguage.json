@@ -26,7 +26,11 @@
 			"patterns": [
 				{
 					"name": "keyword.litan",
-					"match": "\\b(return|var)\\b"
+					"match": "\\b(return|var|except)\\b"
+				},
+				{
+					"name": "keyword.directives.litan",
+					"match": "\\B(#import|#include)\\b"
 				},
 				{
 					"name": "keyword.conditional.litan",
