@@ -26,7 +26,7 @@
 			"patterns": [
 				{
 					"name": "keyword.litan",
-					"match": "\\b(return|var|except|def|yield)\\b"
+					"match": "\\b(return|var|except|def|yield|iife)\\b"
 				},
 				{
 					"name": "keyword.directives.litan",
@@ -38,7 +38,7 @@
 				},
 				{
 					"name" : "keyword.operator.litan",
-					"match" : "->|=>|="
+					"match" : "->|=>|=|\\."
 				},
 				{
 					"name" : "keyword.loops.litan",
@@ -46,7 +46,7 @@
 				},
 				{
 					"name" : "keyword.operator.arithmetic.litan",
-					"match" : "\\+|-|\\*|\\/|%|\\*\\*"
+					"match" : "\\+|-(?!\\>)|\\*|\\/|%|\\*\\*"
 				},
 				{
 					"name" : "keyword.operator.compare.litan",
