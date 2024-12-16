@@ -30,7 +30,7 @@
 				},
 				{
 					"name": "keyword.directives.litan",
-					"match": "\\B(#import|#include)\\b"
+					"match": "\\B(#import)\\b"
 				},
 				{
 					"name": "keyword.conditional.litan",
